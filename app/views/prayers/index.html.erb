@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Prayers</h1>
+
+<div id="prayers">
+  <% @prayers.each do |prayer| %>
+    <%= render prayer %>
+    <p>
+      <%= link_to "Edit this prayer", [:edit, prayer] %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New prayer", new_prayer_path %>

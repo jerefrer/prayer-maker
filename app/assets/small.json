@@ -1,0 +1,284 @@
+{
+  "id": "morning-prayers",
+  "shortName": "Morning Prayers",
+  "title": {
+    "tibetan": {
+      "full": "སྒྲུབ་གྲྭའི་ཞལ་འདོན་ཆོག་སྒྲིགས། །",
+      "short": "སྒྲུབ་གྲྭའི་ཞལ་འདོན་ཆོག་སྒྲིགས། །"
+    },
+    "english": {
+      "title": "Morning Prayers",
+      "subtitle": "Chanteloube Retreat"
+    },
+    "french": {
+      "title": "Prières du matin",
+      "subtitle": "Retraite à Chanteloube "
+    }
+  },
+  "groups": [
+    {
+      "smallWritings": true,
+      "practiceTitle": true,
+      "linkInIndex": true,
+      "tibetan": "༄༅། །འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པའི་ཚིགས་སུ་བཅད་པ་བཞུགས་སོ།",
+      "english": "The Verses of the Eight Noble Auspicious Ones",
+      "id": "6d469455-039b-4c73-a966-bd4a6d01afa4"
+    },
+    {
+      "smallWritings": true,
+      "tibetan": "ལས་གང་ཞིག་རྩོམ་པ་ལ་ཐོག་མར་འདི་ཚར་གཅིག་བརྗོད་ན་བྱ་བ་གང་བརྩམས་པ་དེ་ཡིད་བཞིན་དུ་བྱེད་པར་འགྱུར་བས་ཅི་ནས་ཀྱང་གལ་ཆེ་སྟེ།",
+      "english": "It is very important to recite this through once before starting on any activity; whatever the project, it will work out exactly as you wish.",
+      "id": "0fc33639-06ed-4b9e-9d53-c7a5468ba1c5"
+    },
+    {
+      "tibetan": "ༀ། སྣང་སྲིད་རྣམ་དག་རང་བཞིན་ལྷུན་གྲུབ་པའི། །",
+      "english": "Homage to the Buddha, Dharma and Noble Sangha,",
+      "id": "2a96782b-09f8-4961-9440-0d8339c5b155",
+      "phonetics": "Om Nangsi namtak rangzhin lhüntrup pé"
+    },
+    {
+      "tibetan": "བཀྲ་ཤིས་ཕྱོགས་བཅུའི་ཞིང་ན་བཞུགས་པ་ཡི། །",
+      "english": "All that dwell in the Auspicious realms of the ten directions,",
+      "id": "c550b451-24dc-494b-833f-89da1aa606b1",
+      "phonetics": "Trashi chokchü zhing-na zhukpa yi"
+    },
+    {
+      "tibetan": "སངས་རྒྱས་ཆོས་དང་དགེ་འདུན་འཕགས་པའི་ཚོགས། །",
+      "english": "Where all appearance and existence is completely pure, its nature spontaneously perfect;",
+      "id": "a5dd7670-a34e-4cd6-83be-a7da54b0904a",
+      "phonetics": "Sang-gyé chötang gendün p'akpé tsok"
+    },
+    {
+      "tibetan": "ཀུན་ལ་ཕྱག་འཚལ་བདག་ཅག་བཀྲ་ཤིས་ཤོག །",
+      "english": "May all be auspicious for us!",
+      "id": "2a3ca3b6-ef8a-4440-912f-81b1495662be",
+      "phonetics": "Künla chaktsal dachak trashi sho"
+    },
+    {
+      "tibetan": "སྒྲོལ་མའི་རྒྱལ་པོ་རྩལ་བརྟན་དོན་གྲུབ་དགོངས། །",
+      "english": "Think of us, Saviour-King and Enduring-Power-Wish-Fulfiller,",
+      "id": "a051fdfd-3b86-47f3-a09b-c8ed20e23db8",
+      "phonetics": "Drölmé gyalpo tsalten töntrup gong"
+    },
+    {
+      "tibetan": "བྱམས་པའི་རྒྱན་དཔལ་དགེ་གྲགས་དཔལ་དམ་པ། །",
+      "english": "Sublime Glorious-Ornament-of-Love and Excellence-of-Fame-and-Virtue,",
+      "id": "82a4d67d-1b7b-4216-bcd4-4ea6732b12e0",
+      "phonetics": "Champé gyenpal gétrak paltam pa"
+    },
+    {
+      "tibetan": "ཀུན་ལ་དགོངས་པ་རྒྱ་ཆེར་གྲགས་པ་ཅན། །",
+      "english": "Widely-Renowned-Who-Cares-for-All,",
+      "id": "fe75d523-7538-4f5d-a82d-6a3f238cd37d",
+      "phonetics": "Künla gongpa gyacher trakpa chen"
+    },
+    {
+      "tibetan": "ལྷུན་པོ་ལྟར་འཕགས་རྩལ་གྲགས་དཔལ་དང་ནི། །",
+      "english": "Glorious-Power-Exalted-as-Mount-Meru,",
+      "id": "70a31a29-8742-469d-a766-890f26fc6cef",
+      "phonetics": "Lhünpo tarp'ak tsaltrak paltang ni"
+    },
+    {
+      "tibetan": "སེམས་ཅན་ཐམས་ཅད་ལ་དགོངས་གྲགས་པའི་དཔལ། །",
+      "english": "Splendour-of-Fame-Who-Cares-for-All-Beings,",
+      "id": "d04add6c-d4b7-478a-8e66-b4be37412461",
+      "phonetics": "Semchen thamché lagong trakpé pal"
+    },
+    {
+      "tibetan": "ཡིད་ཚིམ་མཛད་པ་རྩལ་རབ་གྲགས་དཔལ་ཏེ། །",
+      "english": "And Legendary-Skill-Satisfying-All-Desires,",
+      "id": "7f3dce0c-00fd-4e13-b230-b3f01736921a",
+      "phonetics": "Yitsim dzépa tsalrap trakpal té"
+    },
+    {
+      "tibetan": "མཚན་ཙམ་ཐོས་པས་བཀྲ་ཤིས་དཔལ་འཕེལ་བ། །",
+      "english": "Homage to you, Eight Sugatasi;",
+      "id": "2209158e-4980-433c-87d8-bd3a09560186",
+      "phonetics": "Tsentsam thöpé trashi palp'el wa"
+    },
+    {
+      "tibetan": "བདེ་བར་གཤེགས་པ་བརྒྱད་ལ་ཕྱག་འཚལ་ལོ། །",
+      "english": "Merely hearing your names increases auspiciousness and success!",
+      "id": "e3b262d6-ca0f-4049-8741-ff8423e59194",
+      "phonetics": "Déwar shekpa gyéla chaktsal lo"
+    },
+    {
+      "smallWritings": true,
+      "tibetan": "ལྡང་ཚེ་བརྗོད་ན་དེ་ཉིན་དོན་ཀུན་འགྲུབ། ཉལ་ཚེ་བརྗོད་ན་རྨི་ལམ་བཟང་པོ་མྠོང་། གཡུལ་དུ་འཇུག་ཚེ་བརྗོད་ན་ཕྱོགས་ལས་རྒྱལ། བྱ་བ་རྩོམ་དུས་བརྗོད་ན་འདོད་དོན་འཕེལ། རྒྱུན་དུ་བརྗོད་ན་ཚེ་དཔལ་གྲགས་འབྱོར་སྤེལ། བདེ་ལེགས་ཕུན་ཚོགས་བསམ་དོན་ཡིད་བཞིན་འགྲུབ། སྡིག་སྒྲིབ་ཀུན་བྱང་མངོན་མཐོ་ངེས་ལེགས་ཀྱི། དོན་ཀུན་འགྲུབ་པར་རྒྱལ་བ་མཆོག་གིས་གསུངས། རབ་ཚེས་མེ་སྤྲེལ་ཟླ༥་ཚེས༣་ལ་གཟའ་ཉི་མ་དང་རྒྱུ་སྐར་རྒྱལ་གྱི་དུས་བཟང་པོའི་ཆ་ལ་འཇམ་དཔལ་དགྱེས་པའི་རྡོ་རྗེའི་ཡིད་མཚོ་ལས་བྱུང་བ་ནོར་བུའི་དོ་ཤལ་ཆེན་པོ་སརྦ་མངྒལཾ༎  ༎",
+      "english": "The sublime Conqueror said that if one recites this prayer when one gets up, one will achieve all one’s aims that day; if one recites it before going to sleep, one will have good dreams; if one recites it as one enters into battle, one will be victorious in every respect; if one recites it when one begins a project, one’s plans will succeed; if one recites it daily one’s lifespan, success, fame and wealth will increase, one will accomplish one’s aims exactly as one has planned and find perfect happiness; all negative actions and obscurations will be purified and all one’s desires for the highest temporal and ultimate happiness will be fulfilled. This is a great garland of jewels which rose out of the oceanic mind of Jampel Gyepai Dorje (Mipham Rinpoche) at a perfect time, the third day of the fifth month, a Sunday, in the Fire Monkey year, at an auspicious moment when the constellation of the Victor was dominant. Sarwa mangalam!",
+      "id": "082bd6cf-3472-433a-af63-c6896795b099"
+    },
+    {
+      "smallWritings": true,
+      "practiceTitle": true,
+      "linkInIndex": true,
+      "tibetan": "༄༅། །འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་མདོ་ནི། །",
+      "english": "The Sutra of Truly Remembering the Sublime Three Jewels",
+      "id": "b2c77b66-665f-473d-99e3-998929ee5656"
+    },
+    {
+      "tibetan": "ཐམས་ཅན་མཁྱེན་པ་ལ་ཕྱག་འཚལ་ལོ། །",
+      "english": "Homage to the Omniscient One!",
+      "id": "ff13dbcb-0205-4130-8bec-16d4257036de",
+      "phonetics": "Thamchen khyenpa lachak tsal-lo"
+    },
+    {
+      "tibetan": "འདི་ལྟར་སངས་རྒྱས་བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་རིག་པ་དང་ཞབས་སུ་ལྡན་པ། །",
+      "english": "Purified and Consummate, Victorious, Virtuous and Transcendent, Thus-Gone, Foe-destroying, entirely perfect Buddha, full of wisdom and the feet of wisdom,",
+      "id": "bd77887e-74cf-47a8-8f0f-47f0f39043a7",
+      "phonetics": "Ditar sang-gyé chomden dété zhinshek padra chompa yangtak pardzok pésang gyérik patang zhapsu denpa"
+    },
+    {
+      "tibetan": "བདེ་བར་གཤེགས་པ། འཇིག་རྟེན་མཁྱེན་པ། ",
+      "english": "The Blissfully Proceeding, the Knower of the World,",
+      "id": "273950b8-fbdd-4128-959f-7ee90f5e8477",
+      "phonetics": "Déwar shekpa Jikten khyenpa"
+    },
+    {
+      "tibetan": "སྐྱེས་བུ་འདུལ་བའི་ཁ་ལོ་བསྒྱུར་བ།",
+      "english": "Charioteer and Subduer of beings,",
+      "id": "99e020cd-39d6-465f-8f7d-8fc0b3774084",
+      "phonetics": "Kyépu dülwé khalo gyurwa"
+    },
+    {
+      "tibetan": "བླ་ན་མེད་པ། ལྷ་དང་མི་རྣམས་ཀྱི་སྟོན་པ། ",
+      "english": "The Unsurpassable, the teacher of Gods and Men,",
+      "id": "44d1f110-6b25-4f27-8d88-32281d13861a",
+      "phonetics": "La-na mépa Lhatang minam kyitön pa"
+    },
+    {
+      "smallWritings": true,
+      "tibetan": "ཅེས་པའང་མཁས་གྲུབ་དབང་པོ་༧སྐྱབས་རྗེ་བཀའ་འགྱུར་རིན་པོ་ཆེའི་སྐུ་གསུང་ཐུགས་ཀྱི་རིགས་སྲས་༧སྐྱབས་མཆོག་རང་གྲོལ་རིན་པོ་ཆེའི་༧ཞབས་བརྟན་གསོལ་འདེབས་སུ་ཤཱཀྱའི་དགེ་སྦྱོང་ཀུན་རྨོངས་པ་ངག་དབང་ཆོས་ཀྱི་བློ་གྲོས་སུ་འབོད་པས་འདུན་སྨོན་དུ་ཕ་རན་སེའི་བཀྲ་ཤིས་དཔལ་འབར་གླིང་དུ་སྨིན་དྲུག་ཟླ་བའི་ཤེར་ཕྱོགས་བཟང་པོ་གཉིས་པ་བཀྲ་ཤིས་ཉི་མར་བྲིས་ཏེ་ཕུལ་བ་ཤུ་བྷཾ།། །།",
+      "english": "This prayer for the health and long life of the supreme refuge Rangdrol Rinpoche, body speech and mind son of the mighty learned and accomplished Kyabjé Kangyur Rinpoche, was felt as an aspiration, written down and offered by the totally ignorant Buddhist monk known as Ngawang Chökyi Lodrö at Tashi Pelbar Ling in France on the auspicious twenty-second day of the Ripening (tenth) Month of the Earth Hare Year. Shubham!",
+      "id": "339ee759-df3b-4828-8a66-15298a086e06"
+    },
+    {
+      "tibetan": "དཔལ་ལྡན་བླ་མའི་སྐུ་ཚེ་རབ་བརྟན་ཞིང་། །",
+      "english": "Through the perfect health and life of the glorious masters,",
+      "id": "ec5beae6-e9cd-4307-b4d1-f50f30b763c8",
+      "phonetics": "Palden lamé kutsé rapten zhing"
+    },
+    {
+      "tibetan": "བསྟན་པའི་སྦྱིན་བདག་མངའ་ཐང་དར་བ་ཡིས། །",
+      "english": "Through the increasing prosperity of the patrons of the Doctrine,",
+      "id": "90cc3025-d318-459e-b42a-2360053bdefc",
+      "phonetics": "Tenpé jinda ngathang tarwa yi"
+    },
+    {
+      "tibetan": "ཆོས་སྲིད་མི་ནུབ་ནོར་བུའི་རྒྱལ་མཚན་བསྒྲེངས། །",
+      "english": "Through the raising of the jeweled victory banner of the undeclining dominion of the Dharma,",
+      "id": "b1565422-00e7-4a8c-8b4e-1ab542d6c343",
+      "phonetics": "Chösi minup norpü gyaltsen dreng"
+    },
+    {
+      "emptyLineAfterTibetan": true,
+      "emptyLineAfterTranslation": true,
+      "tibetan": "མཚོ་སྐྱེས་རྒྱལ་བའི་བསྟན་པ་རྒྱས་གྱུར་ཅིག །",
+      "english": "May the doctrine of the Lake-Born Conqueror be spread.",
+      "id": "7de0af8f-a2eb-4977-b116-5d2657eb391b",
+      "phonetics": "Tsokyé gyalwé tenpa gyékyur chik"
+    },
+    {
+      "tibetan": "བྱང་ཆུབ་སེམས་མཆོག་རིན་པོ་ཆེ། །",
+      "english": "May bodhicitta, precious and sublime,",
+      "id": "1f481fda-fa20-4fb7-b51d-da131dd807a7",
+      "phonetics": "Changchup semchok rinpo ché"
+    },
+    {
+      "tibetan": "མ་སྐྱེ་པ་རྣམས་བསྐྱེད་འགྱུར་ཅིག །",
+      "english": "Arise where it has not yet come to be.",
+      "id": "e0aadaf1-164f-44cb-b55b-f02e9118b432",
+      "phonetics": "Makyé pa-nam kyégyur chik"
+    },
+    {
+      "tibetan": "སྐྱེས་པ་ཉམས་པ་མེད་པ་དང་། །",
+      "english": "And where it has arisen, may it never fail",
+      "id": "c9f96a25-6919-41e7-ab02-89f3608b3aa7",
+      "phonetics": "Kyépa nyampa mépa tang"
+    },
+    {
+      "emptyLineAfterTibetan": true,
+      "emptyLineAfterTranslation": true,
+      "tibetan": "གོང་ནས་གོང་ཏུ་འཕེལ་བར་ཤོག །",
+      "english": "But grow and flourish ever more and more.",
+      "id": "393bbc5d-6d3b-4bef-87e0-0f75fdba2793",
+      "phonetics": "Kong-né kongtu p'elwar sho"
+    },
+    {
+      "tibetan": "འཛམ་གླིང་སྤྱི་དང་ཡུལ་ཁམས་འདི་དག་ཏུ། །",
+      "english": "In the world in general and in this country",
+      "id": "fa83bae3-8707-437b-894d-7e7963b2a25f",
+      "phonetics": "Dzamling chitang yülkham ditak tu"
+    },
+    {
+      "tibetan": "ནད་མུག་མཚོན་སོགས་སྡུག་བསྔལ་མིང་མི་གྲག །",
+      "english": "May not even the names of disease, famine, war or other sufferings be heard.",
+      "id": "c90b9184-b422-47c4-b9ad-ebb939066f81",
+      "phonetics": "Némuk tsönsok dukngal mingmi trak"
+    },
+    {
+      "tibetan": "ཆོས་ལྡན་བསོད་ནམས་དཔལ་འབྱོར་གོང་དུ་འཕོལ། །",
+      "english": "May spiritual practice, merit and prosperity ever increase,",
+      "id": "12202445-a99f-496d-908e-4670af59f8a6",
+      "phonetics": "Chöden sönam paljor kongtu p'öl"
+    },
+    {
+      "emptyLineAfterTibetan": true,
+      "emptyLineAfterTranslation": true,
+      "tibetan": "རྟག་ཏུ་བཀྲ་ཤིས་བདེ་ལེགས་ཕུན་ཚོགས་ཤོག །",
+      "english": "And may there be continuous good fortune, well-being and sublime happiness.",
+      "id": "cd6744fd-ef06-4c26-ba41-0bde2def5c83",
+      "phonetics": "Taktu trashi délek p'üntsok sho"
+    },
+    {
+      "tibetan": "མཁན་སློབ་ཆོས་གསུམ་རིང་ལུགས་ཆེ། །",
+      "english": "May the tradition of three great beings – Khenpo Shantarakshita, Lopön Padmasambhawa and Dharma king Trisongdetsen – ",
+      "id": "1eb9ac43-e4ac-4fdc-9a8d-27d4ceb7bbd2",
+      "phonetics": "Khenlop chösum ringluk ché"
+    },
+    {
+      "tibetan": "འཛམ་གླིང་ས་གསུམ་ཁྱབ་པར་འཕེལ། །",
+      "english": "Spread throughout the three levels of this world.",
+      "id": "44fb1c1f-5229-4e19-a6b5-d5df8e0125b9",
+      "phonetics": "Dzamling sasum khyap-par p'el"
+    },
+    {
+      "tibetan": "འགྲོ་རྒྱུད་མཆོག་གསུམ་སྣང་བ་དང་། །",
+      "english": "May sentient beings never be separate from the Three Jewels,",
+      "id": "d1d01c1f-22e7-4ba4-95dc-0b70f5f4f199",
+      "phonetics": "Drogyü choksum nangwa tang"
+    },
+    {
+      "emptyLineAfterTibetan": true,
+      "emptyLineAfterTranslation": true,
+      "tibetan": "མི་འབྲལ་དུས་གསུམ་དགེ་ལེགས་ཤོག །།",
+      "english": "And thus live in perfect goodness throughout the three times.",
+      "id": "0f8c4c82-d99e-495a-940d-f71466f44d90",
+      "phonetics": "Midral tüsum gélek sho"
+    },
+    {
+      "tibetan": "གངས་ལྗོངས་རིམ་མེད་བསྟན་པ་རྒྱ་མཚོའི་བདག །",
+      "english": "May the tradition of Jamyang Khentsé Wangpo, who is the master of the ocean-like Rimé teachings of Tibet,",
+      "id": "d9190100-8832-4e64-b254-f52c3f1e30dd",
+      "phonetics": "Kangjong rim-mé tenpa gyamtsö da"
+    },
+    {
+      "tibetan": "ངོ་མཚར་བཀའ་བབས་བདུན་གྱི་འཁོར་ལོའི་བསྒྱུར། །",
+      "english": "The lord who wields the wonderful Seven Special Direct Blessings,",
+      "id": "5fe60fb8-7cd8-4306-aea8-d93d35947391",
+      "phonetics": "Ngotsar kapap dünkyi khorlö gyur"
+    },
+    {
+      "tibetan": "འཇམ་དཔལ་དབྱངས་དངོས་མཁེན་བརྩེ་དབང་པོ་ཡི། །",
+      "english": "And Mañjushri himself in person,",
+      "id": "9e682fe1-79ff-4820-8eb0-68030b49d5a9",
+      "phonetics": "Jampal yang-ngö khentsé wangpo yi"
+    },
+    {
+      "tibetan": "རིང་ལུགས་བསྟན་པ་དར་རྒྱས་བཀྲ་ཤིས་ཤོག །",
+      "english": "Spread, prosper and grow!",
+      "id": "a347894a-4d65-44df-86ab-110fd8f55fb7",
+      "phonetics": "Ringluk tenpa targyé trashi sho"
+    }
+  ]
+}
