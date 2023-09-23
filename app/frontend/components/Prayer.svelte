@@ -2,8 +2,34 @@
   import { v4 as uuid } from "uuid";
   import PrayerGroup from "./PrayerGroup.svelte";
 
+  import { Repo } from "@automerge/automerge-repo";
+  import { BroadcastChannelNetworkAdapter } from "@automerge/automerge-repo-network-broadcastchannel";
+  import { IndexedDBStorageAdapter } from "@automerge/automerge-repo-storage-indexeddb";
+  import { BrowserWebSocketClientAdapter } from "@automerge/automerge-repo-network-websocket";
+  import { setContextRepo } from "@automerge/automerge-repo-svelte-store";
+
   export let prayerId;
   export let prayer;
+
+  const repo = new Repo({
+    network: [
+      new BroadcastChannelNetworkAdapter(),
+      new BrowserWebSocketClientAdapter("ws://localhost:3030"),
+    ],
+    storage: new IndexedDBStorageAdapter(),
+  });
+
+  setContextRepo(repo);
+
+  let rootDocUrl = localStorage.rootDocUrl;
+  if (!rootDocUrl) {
+    const doc = repo.create();
+    doc.change((d) => {
+      d.count = 0;
+      d.prayer = prayer;
+    });
+    localStorage.rootDocUrl = rootDocUrl = doc.url;
+  }
 
   function handleArrowsNavigation({ keyCode }) {
     if (keyCode !== 38 && keyCode !== 40) return;
@@ -68,7 +94,7 @@
 
   {#each prayer.groups as group, index (group.id)}
     <div class="add-button" on:click={() => insertGroupBefore(index)} />
-    <PrayerGroup {prayerId} {group} />
+    <PrayerGroup {prayerId} {index} documentUrl={rootDocUrl} />
   {/each}
   <div class="add-button" on:click={insertGroupAtTheEnd} />
 </div>

@@ -1,38 +1,24 @@
 <script>
-  import { onMount } from "svelte";
   import { ToggleSwitch } from "fluent-svelte";
-  import { router } from "@inertiajs/svelte";
+  import { document } from "@automerge/automerge-repo-svelte-store";
 
-  export let prayerId;
-  export let group;
+  export let documentUrl;
+  export let index;
 
-  function now() {
-    return new Date().getTime();
-  }
+  const doc = document(documentUrl);
+  $: group = $doc?.prayer.groups[index] || {};
 
   let timer;
-  let initializedAt = now();
 
   function debouncedPostGroup(group) {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      fetch(`/prayers/${prayerId}/update_group`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-          "X-CSRF-Token": document.querySelector("meta[name='csrf-token']")
-            .content,
-        },
-        body: JSON.stringify({ group: group }),
+      console.log('debounced');
+      doc.change((d) => {
+        d.prayer.groups[index] = JSON.parse(JSON.stringify(group));
       });
     }, 750);
   }
-
-  // $: {
-  //   if (now() - initializedAt > 1000) {
-  //     debouncedPostGroup(group);
-  //   }
-  // }
 </script>
 
 <div class="group" class:small-writings={group.smallWritings}>
@@ -66,15 +52,15 @@
     </div>
   </div>
   <div class="options">
-    <ToggleSwitch bind:checked={group.practiceTitle}>
+    <ToggleSwitch bind:checked={group.practiceTitle} on:change={() => debouncedPostGroup(group)}>
       Practice title
     </ToggleSwitch>
     {#if group.practiceTitle}
-      <ToggleSwitch bind:checked={group.linkInIndex}>
+      <ToggleSwitch bind:checked={group.linkInIndex} on:change={() => debouncedPostGroup(group)}>
         Link in Table of Contents
       </ToggleSwitch>
     {:else}
-      <ToggleSwitch bind:checked={group.smallWritings}>
+      <ToggleSwitch bind:checked={group.smallWritings} on:change={() => debouncedPostGroup(group)}>
         Small writings
       </ToggleSwitch>
     {/if}
