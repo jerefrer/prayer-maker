@@ -1,35 +1,10 @@
 <script>
+  import { Doc, Collection } from "sveltefire";
   import { v4 as uuid } from "uuid";
   import PrayerGroup from "./PrayerGroup.svelte";
 
-  import { Repo } from "@automerge/automerge-repo";
-  import { BroadcastChannelNetworkAdapter } from "@automerge/automerge-repo-network-broadcastchannel";
-  import { IndexedDBStorageAdapter } from "@automerge/automerge-repo-storage-indexeddb";
-  import { BrowserWebSocketClientAdapter } from "@automerge/automerge-repo-network-websocket";
-  import { setContextRepo } from "@automerge/automerge-repo-svelte-store";
-
   export let prayerId;
   export let prayer;
-
-  const repo = new Repo({
-    network: [
-      new BroadcastChannelNetworkAdapter(),
-      new BrowserWebSocketClientAdapter("ws://localhost:3030"),
-    ],
-    storage: new IndexedDBStorageAdapter(),
-  });
-
-  setContextRepo(repo);
-
-  let rootDocUrl = localStorage.rootDocUrl;
-  if (!rootDocUrl) {
-    const doc = repo.create();
-    doc.change((d) => {
-      d.count = 0;
-      d.prayer = prayer;
-    });
-    localStorage.rootDocUrl = rootDocUrl = doc.url;
-  }
 
   function handleArrowsNavigation({ keyCode }) {
     if (keyCode !== 38 && keyCode !== 40) return;
@@ -81,9 +56,19 @@
       body: JSON.stringify({ group_id: groupId, new_group: newGroup }),
     });
   }
+  
 </script>
 
 <svelte:window on:keydown={handleArrowsNavigation} />
+
+<Doc ref="prayers/kNiOBUy8dZNu6jmO8cvd" let:data={prayer} let:ref={prayerRef}>
+  <input value={prayer.title.english.title} />
+  <Collection ref="{prayerRef.path}/groups" let:data={groups}>
+    {#each groups as group}
+      <PrayerGroup {group} />
+    {/each}
+  </Collection>
+</Doc>
 
 <div>
   <hgroup>
@@ -94,7 +79,7 @@
 
   {#each prayer.groups as group, index (group.id)}
     <div class="add-button" on:click={() => insertGroupBefore(index)} />
-    <PrayerGroup {prayerId} {index} documentUrl={rootDocUrl} />
+    <PrayerGroup {group} />
   {/each}
   <div class="add-button" on:click={insertGroupAtTheEnd} />
 </div>

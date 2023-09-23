@@ -1,22 +1,16 @@
 <script>
   import { ToggleSwitch } from "fluent-svelte";
-  import { document } from "@automerge/automerge-repo-svelte-store";
+  import { doc, setDoc } from "firebase/firestore"; 
+  import { firestore } from '../firebase';
 
-  export let documentUrl;
-  export let index;
-
-  const doc = document(documentUrl);
-  $: group = $doc?.prayer.groups[index] || {};
+  export let group;
 
   let timer;
 
   function debouncedPostGroup(group) {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      console.log('debounced');
-      doc.change((d) => {
-        d.prayer.groups[index] = JSON.parse(JSON.stringify(group));
-      });
+      setDoc(doc(firestore, group.ref.path), group);
     }, 750);
   }
 </script>
